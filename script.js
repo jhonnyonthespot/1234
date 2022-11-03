@@ -1108,19 +1108,15 @@ function startGame(){
 
 window.onkeydown = function(e){
 	if(e.keyCode == 65)
-        if(e.keyCode == 37)
 		left = true;
         if(e.keyCode == 68)
-	if(e.keyCode == 39)
 		right = true;
 }
 
 window.onkeyup = function(e){
 	if(e.keyCode == 65)
-        if(e.keyCode == 37)
 		left = false;
         if(e.keyCode == 68)
-	if(e.keyCode == 39)
 		right = false;
 }
 
